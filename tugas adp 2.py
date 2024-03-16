@@ -56,8 +56,6 @@ elif jarak >= 500 and jarak <= 1500 :
        print("tarif pesanan anda : " + "RP" + str(C2))
    
  
-
-
 elif jarak > 1500 :
    if menu == A:
        print("tarif pesanan anda : " + "RP" + str(A3))
@@ -86,7 +84,6 @@ else:
           print("tarif pesanan anda : " + "RP" + str(B2))
        else:
           print("tarif pesanan anda : " + "RP" + str(C2))
-    
     
     else :
        if menu == A:
