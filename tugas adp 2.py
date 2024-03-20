@@ -39,9 +39,9 @@ C2= C*jumlah+E
 C3= C*jumlah+F
 
 if jarak < 500  :
-    if menu == A:
+    if menu == "A":
         print("tarif pesanan anda : " + "RP" + str(A1))
-    elif menu == B:
+    elif menu == "B":
         print("tarif pesanan anda : " + "RP" + str(B1))
     else:
         print("tarif pesanan anda : " + "RP" + str(C1))
@@ -49,9 +49,9 @@ if jarak < 500  :
     
 
 elif jarak >= 500 and jarak <= 1500 :
-   if menu == A:
+   if menu == "A":
        print("tarif pesanan anda : " + "RP" + str(A2))
-   elif  menu == B:
+   elif  menu == "B":
        print("tarif pesanan anda : " + "RP" + str(B2))
    else:
        print("tarif pesanan anda : " + "RP" + str(C2))
@@ -59,43 +59,14 @@ elif jarak >= 500 and jarak <= 1500 :
  
 
 
-elif jarak > 1500 :
-   if menu == A:
+else :
+   if menu == "A":
        print("tarif pesanan anda : " + "RP" + str(A3))
-   elif  menu == B:
+   elif  menu == "B":
        print("tarif pesanan anda : " + "RP" + str(B3))
    else:
        print("tarif pesanan anda : " + "RP" + str(C3))
    
-   
-else:
-    print("menu atau jarak yang anda masukkan tidak valid, mohon ulangi lagi")
-    menu= input("pilih paket yang ingin anda pesan : ").upper()
-    jarak= int(input("masukkan jarak ke rumah anda (dalam satuan meter) : "))
-    if jarak < 500  :
-       if menu == A:
-          print("tarif pesanan anda : " + "RP" + str(A1))
-       elif menu == B:
-          print("tarif pesanan anda : " + "RP" + str(B1))
-       else:
-          print("tarif pesanan anda : " + "RP" + str(C1))
-
-    elif jarak >= 500 and jarak <= 1500 :
-       if menu == A:
-          print("tarif pesanan anda : " + "RP" + str(A2))
-       elif menu == B:
-          print("tarif pesanan anda : " + "RP" + str(B2))
-       else:
-          print("tarif pesanan anda : " + "RP" + str(C2))
-    
-    
-    else :
-       if menu == A:
-          print("tarif pesanan anda : " + "RP" + str(A3))
-       elif  menu == B:
-          print("tarif pesanan anda : " + "RP" + str(B3))
-       else:
-          print("tarif pesanan anda : " + "RP" + str(C3))
 
     
 
