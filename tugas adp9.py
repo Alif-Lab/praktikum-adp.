@@ -9,8 +9,8 @@ x= " "*3
 for i in range (4):
     cprint(x,"red", "on_red",end="  ")
     
-for i in range (3):
-    cprint(x,"red", "on_red",end="")
+for i in range (8):
+    cprint(" ","red", "on_red",end="")
 
 print()
 
